@@ -1,0 +1,1 @@
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Factory\Demo_Factory\bin\Debug\Demo_Factory.exe.config

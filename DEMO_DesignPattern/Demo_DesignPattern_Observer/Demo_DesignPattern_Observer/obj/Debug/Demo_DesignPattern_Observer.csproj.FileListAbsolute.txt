@@ -1,0 +1,9 @@
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Observer\Demo_DesignPattern_Observer\bin\Debug\Demo_DesignPattern_Observer.exe.config
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Observer\Demo_DesignPattern_Observer\obj\Debug\Demo_DesignPattern_Observer.csprojResolveAssemblyReference.cache
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Observer\Demo_DesignPattern_Observer\obj\Debug\Demo_DesignPattern_Observer.Form1.resources
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Observer\Demo_DesignPattern_Observer\obj\Debug\Demo_DesignPattern_Observer.Properties.Resources.resources
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Observer\Demo_DesignPattern_Observer\obj\Debug\Demo_DesignPattern_Observer.csproj.GenerateResource.Cache
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Observer\Demo_DesignPattern_Observer\bin\Debug\Demo_DesignPattern_Observer.exe
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Observer\Demo_DesignPattern_Observer\bin\Debug\Demo_DesignPattern_Observer.pdb
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Observer\Demo_DesignPattern_Observer\obj\Debug\Demo_DesignPattern_Observer.exe
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Observer\Demo_DesignPattern_Observer\obj\Debug\Demo_DesignPattern_Observer.pdb

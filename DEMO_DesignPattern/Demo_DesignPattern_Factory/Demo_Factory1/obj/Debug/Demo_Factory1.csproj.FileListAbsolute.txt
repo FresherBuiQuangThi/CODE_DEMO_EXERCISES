@@ -1,0 +1,6 @@
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Factory\Demo_Factory1\bin\Debug\Demo_Factory1.exe.config
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Factory\Demo_Factory1\obj\Debug\Demo_Factory1.csprojResolveAssemblyReference.cache
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Factory\Demo_Factory1\bin\Debug\Demo_Factory1.exe
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Factory\Demo_Factory1\bin\Debug\Demo_Factory1.pdb
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Factory\Demo_Factory1\obj\Debug\Demo_Factory1.exe
+C:\Users\QuangThy\Desktop\Demo_DesignPattern_Factory\Demo_Factory1\obj\Debug\Demo_Factory1.pdb

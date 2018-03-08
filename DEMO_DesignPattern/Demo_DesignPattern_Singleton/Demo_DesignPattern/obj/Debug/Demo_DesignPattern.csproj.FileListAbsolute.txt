@@ -1,0 +1,9 @@
+C:\Users\QuangThy\Desktop\Demo_DesignPattern\Demo_DesignPattern\bin\Debug\Demo_DesignPattern.exe.config
+C:\Users\QuangThy\Desktop\Demo_DesignPattern\Demo_DesignPattern\bin\Debug\Demo_DesignPattern.exe
+C:\Users\QuangThy\Desktop\Demo_DesignPattern\Demo_DesignPattern\bin\Debug\Demo_DesignPattern.pdb
+C:\Users\QuangThy\Desktop\Demo_DesignPattern\Demo_DesignPattern\obj\Debug\Demo_DesignPattern.csprojResolveAssemblyReference.cache
+C:\Users\QuangThy\Desktop\Demo_DesignPattern\Demo_DesignPattern\obj\Debug\Demo_DesignPattern.Form1.resources
+C:\Users\QuangThy\Desktop\Demo_DesignPattern\Demo_DesignPattern\obj\Debug\Demo_DesignPattern.Properties.Resources.resources
+C:\Users\QuangThy\Desktop\Demo_DesignPattern\Demo_DesignPattern\obj\Debug\Demo_DesignPattern.csproj.GenerateResource.Cache
+C:\Users\QuangThy\Desktop\Demo_DesignPattern\Demo_DesignPattern\obj\Debug\Demo_DesignPattern.exe
+C:\Users\QuangThy\Desktop\Demo_DesignPattern\Demo_DesignPattern\obj\Debug\Demo_DesignPattern.pdb
