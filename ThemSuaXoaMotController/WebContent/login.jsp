@@ -17,26 +17,37 @@
 </head>
 
 <body>
-	<div class="container"> 
+	<div class="container">
 		<h2 align="center" class="title-color">QUẢN LÝ ĐĂNG NHẬP</h2> 
 	</div>
 	
-	<form class="border-2" action="XuLyDangNhap" method="post">
-		<div>
-			<label class="style_buton" for="email">User:</label>
+	<div class="container2">
+		<form class="border-2" action="XuLyDangNhap" method="post">
 			<div>
-				<input type="text" class="textarea" id="email" name="user" placeholder="Nhập vào user">
+				<label class="style_buton" for="email">User:</label>
+				<div>
+					<input type="text" class="textarea" id="email" name="user" placeholder="Nhập vào user">
+				</div>
 			</div>
-		</div>
-		<div>
-			<label class="style_buton" for="email">Password:</label>
 			<div>
-				<input type="text" class="textarea" id="email" name="pass" placeholder="Nhập vào password">
+				<label class="style_buton" for="email">Password:</label>
+				<div>
+					<input type="text" class="textarea" id="email" name="pass" placeholder="Nhập vào password">
+				</div>
+				<div align="center">
+					<button type="submit" class="textarea-button">Login</button>
+				</div>
+				
+				<div align="center">
+					<label  for="email">Tên đăng nhập: 1</label>
+				</div>
+				
+				<div align="center">
+					<label for="email">Mật khẩu: 123456</label>
+				</div>
+				</div>
 			</div>
-			<div align="center">
-				<button type="submit" class="textarea-button">Login</button>
-			</div>
-		</div>
-	</form>
+		</form>
+	</div>
 </body>
 </html>

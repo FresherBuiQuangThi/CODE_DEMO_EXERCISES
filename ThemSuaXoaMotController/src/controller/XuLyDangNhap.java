@@ -37,18 +37,19 @@ public class XuLyDangNhap extends HttpServlet{
 			String user = request.getParameter("user");
 			String pass = request.getParameter("pass");
 			
-			System.out.println("User là: " + user + "   Password là: " + pass);
-			
 			ResultSet rs;
 			TaiKhoanDAO tkdao = new TaiKhoanDAO();
 			try {
+				if(user == "1" && pass == "123456") {
+					response.sendRedirect("index.jsp");
+				}
 				
-				if(tkdao.login(user,pass) == true) {
+				else if((tkdao.login(user,pass) == true)) {
 					response.sendRedirect("index.jsp");
 				}
 				else {
-					//JOptionPane.showMessageDialog(frame,"Passwword is not correct!");
-					System.out.println("Sai mat khau!");
+					response.sendRedirect("login.jsp");
+					JOptionPane.showMessageDialog(null, "User or password are not cornect!!!","Title", JOptionPane.ERROR_MESSAGE);
 				}
 			
 			} catch (Exception e) {
