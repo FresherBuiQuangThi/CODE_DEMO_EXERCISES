@@ -30,7 +30,7 @@
 								<th>STT</th> 
 								<th>Họ</th> 
 								<th>Tên</th> 
-								<th>Địa chỉ</th> 
+								<th>Ðịa chỉ</th> 
 								<th>Xóa</th>
 								<th>Sửa</th>
 							</tr> 

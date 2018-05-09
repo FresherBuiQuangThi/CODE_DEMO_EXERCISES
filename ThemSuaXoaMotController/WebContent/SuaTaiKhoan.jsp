@@ -30,8 +30,8 @@
 					<input type="text" class="textarea" id="email" name="ho"
 						placeholder="Nhập vào họ"
 						value="<%
-       	 out.print(rs.getString(2));
-        %>">
+					     	 out.print(rs.getString(2));
+					    %>">
 				</div>
 			</div>
 			<div>
