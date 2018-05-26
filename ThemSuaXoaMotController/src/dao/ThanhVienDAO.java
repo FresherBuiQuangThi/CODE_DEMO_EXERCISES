@@ -1,5 +1,7 @@
 package dao;
 
+import java.sql.ResultSet;
+
 import model.MyConnectDB;
 import model.ThanhVien;
 
@@ -9,9 +11,15 @@ public class ThanhVienDAO implements ObjectDAO{
 	public boolean add(Object obj) {
 		ThanhVien tv = (ThanhVien) obj;
 		try {
-			//new MyConnectDB().thucThiCauLenhSQL("insert into ThanhVien values('"+tv.getId()+"','"+tv.getHo()+"','"+tv.getTen()+"','"+tv.getTaKhoan()+"')");
-			new MyConnectDB().thucThiCauLenhSQL("insert into quanlysinhvien.thanhvien values('"+tv.getId()+"','"+tv.getHo()+"','"+tv.getTen()+"','"+tv.getTaKhoan()+"')");
+			ResultSet rs;
+			rs = new MyConnectDB().chonDuLieuTuDTB("select * from quanlysinhvien.thanhvien");
 			
+			if(rs.next()) {
+				new MyConnectDB().thucThiCauLenhSQL("insert into quanlysinhvien.thanhvien values('"+tv.getId()+"','"+tv.getHo()+"','"+tv.getTen()+"','"+tv.getTaKhoan()+"')");
+			}
+			else {
+				new MyConnectDB().thucThiCauLenhSQL("insert into quanlysinhvien.thanhvien values('"+1+"','"+tv.getHo()+"','"+tv.getTen()+"','"+tv.getTaKhoan()+"')");
+			}
 			return true;
 		} catch (Exception e) {
 			e.printStackTrace();

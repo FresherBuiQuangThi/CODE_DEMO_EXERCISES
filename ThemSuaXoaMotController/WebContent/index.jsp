@@ -41,10 +41,10 @@
 						%>
 						
 						<tr> 
-							<td><%=count %></td> 
-							<td><%=rs.getString(2) %></td> 
-							<td><%=rs.getString(3) %></td> 
-							<td><%=rs.getString(4) %></td> 
+							<td><%=count %></td>
+							<td><%=rs.getString(2) %></td>
+							<td><%=rs.getString(3) %></td>
+							<td><%=rs.getString(4) %></td>
 							<td><a href="XuLyThemSuaXoaController?id=<%=rs.getString(1)%>&chucNang=Xoa"><button class="style_buton2">Xóa</button></a></td>
 							<td><a href="SuaTaiKhoan.jsp?id=<%=rs.getString(1)%>"><button class="style_buton2">Sửa</button></a></td>
 						</tr> 

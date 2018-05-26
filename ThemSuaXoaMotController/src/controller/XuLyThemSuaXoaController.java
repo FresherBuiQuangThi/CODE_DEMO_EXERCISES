@@ -24,6 +24,9 @@ public class XuLyThemSuaXoaController extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
+		
+		System.out.println("Vao toi day nhe!!!!!!");
+		
 		ServletContext contextChucNang = getServletContext();
 		String chucNang = (String) contextChucNang.getAttribute("chucNang");
 		request.setCharacterEncoding("utf-8");
@@ -31,10 +34,11 @@ public class XuLyThemSuaXoaController extends HttpServlet {
 		response.setContentType("text/html;charset=utf-8");
 
 		if (chucNang == null || chucNang.equals("")) {
-			chucNang=request.getParameter("chucNang");
-			String id = request.getParameter("id");
-			new ThanhVienDAO().del(id);
-			response.sendRedirect("index.jsp");
+//			chucNang=request.getParameter("chucNang");
+//			String id = request.getParameter("id");
+//			new ThanhVienDAO().del(id);
+//			response.sendRedirect("index.jsp");
+			
 		} else if (chucNang.equals("Sua")) {
 			ServletContext contextID = getServletContext();
 			String id = (String) contextID.getAttribute("id");
@@ -44,6 +48,7 @@ public class XuLyThemSuaXoaController extends HttpServlet {
 			ThanhVien tv = new ThanhVien(id, ho, ten, taiKhoan);
 			new ThanhVienDAO().edit(tv, id);
 			response.sendRedirect("index.jsp");
+			
 		} else if (chucNang.equals("Them")) {
 			try {
 				String count = "";
